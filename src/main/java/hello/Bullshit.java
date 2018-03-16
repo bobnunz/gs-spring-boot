@@ -7,7 +7,7 @@ public class Bullshit {
 		this.age = age;
 		this.height = height;
 	}
-public String getNunz() {
+public String getName() {
 		return name;
 	}
 	public void setName(String nunz) {
