@@ -1,17 +1,17 @@
 package hello;
 
 public class Bullshit {
-  public Bullshit(String nunz, int age, int height) {
+  public Bullshit(String name, int age, int height) {
 		super();
-		this.nunz = nunz;
+		this.name = name;
 		this.age = age;
 		this.height = height;
 	}
 public String getNunz() {
-		return nunz;
+		return name;
 	}
-	public void setNunz(String nunz) {
-		this.nunz = nunz;
+	public void setName(String nunz) {
+		this.name = nunz;
 	}
 	public int getAge() {
 		return age;
@@ -25,8 +25,14 @@ public String getNunz() {
 	public void setHeight(int height) {
 		this.height = height;
 	}
-private String nunz;
+public int getWeight() {
+		return weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+private String name;
   private int age;
   private int height;
-  
+  private int weight;
 }
