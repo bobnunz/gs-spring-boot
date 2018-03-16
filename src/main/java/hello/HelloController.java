@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 public class HelloController {
-    Bullshit bs=new Bullshit("Bob Nunz", 58, 73);
+    Bullshit bs=new Bullshit("Bob Nunz", 58, 73, 210);
     
     @RequestMapping("/")
     public Bullshit index() {

@@ -1,11 +1,12 @@
 package hello;
 
 public class Bullshit {
-  public Bullshit(String name, int age, int height) {
+  public Bullshit(String name, int age, int height, int weight) {
 		super();
 		this.name = name;
 		this.age = age;
 		this.height = height;
+		this.weight = weight;
 	}
 public String getName() {
 		return name;
